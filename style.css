@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Vollkorn:400,400i,600,600i,700,700i&display=swap&subset=cyrillic');
+
+* {
+	font-family: 'Vollkorn';
+}
+
+.heading {
+	font-family: 'Merriweather';
+	font-size: 50px;
+	font-weight: 600;
+}
+
+
 body {
 	background-color: #c9e9ff;
 	background-clip: border-box;
@@ -43,12 +56,6 @@ figcaption {
 	font-size: 13px;
 	font-weight: bold;
 	color: crimson;
-}
-
-.heading {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-weight: bold;
-	font-size: 50px;
 }
 
 .article__lead {
